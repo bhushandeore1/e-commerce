@@ -1,0 +1,32 @@
+<div class="row search-item" *ngFor="let item of searchResult" >
+    <div class="col-sm-3">
+        <a routerLink="/product-detail/{{item.id}}"><img src="{{item.image}}" alt=""></a>
+    </div>
+    <div class="col-sm-8">
+        <h6> <a routerLink="/product-detail/{{item.id}}">{{item.name}}</a></h6>
+        <p><b> Price:</b>{{item.Price}}</p>
+        <p> Category:{{item.Category}}</p>
+        <p>{{item.Description}}</p>
+    </div>
+</div>
+<div *ngIf="!showResult">
+    <H2>Product not found</H2>
+</div>
+<!-- <div class="row search-item">
+    <div class="col-sm-3">
+        <img src="https://m.media-amazon.com/images/I/618hqM-yxtL._SL1500_.jpg" alt="">
+    </div>
+    <div class="col-sm-8">
+        <h6> Product Price</h6>
+        <p><b>Price:1000</b></p>
+    </div>
+</div>
+<div class="row search-item">
+    <div class="col-sm-3">
+        <img src="https://m.media-amazon.com/images/I/618hqM-yxtL._SL1500_.jpg" alt="">
+    </div>
+    <div class="col-sm-8">
+        <h6> Product Price</h6>
+        <p><b>Price:1000</b></p>
+    </div>
+</div> -->

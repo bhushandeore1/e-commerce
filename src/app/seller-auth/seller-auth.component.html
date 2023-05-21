@@ -1,0 +1,28 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <h2>Seller Signup Form</h2>
+        <form class="form-common" #sellerSignup="ngForm" (ngSubmit)="signup(sellerSignup.value)">
+            <input type="text" class="form-inputs" placeholder="Enter name" name="name" ngModel #name="ngModel" required>
+            <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Please input valid name</span></p>
+            <input type="password" class="form-inputs" name="password" placeholder="Enter password" ngModel #password="ngModel" required>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please input valid Password</span></p>
+            <input type="email" class="form-inputs" placeholder="Enter email" name="email" ngModel #email="ngModel" required>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please input valid Email</span></p>
+            <button class="btn btn-primary" [disabled]="sellerSignup.invalid">sign-up</button>
+            <a class="toggle-link" (click)="openLogin()">Already have account? Click to login</a>
+        </form>
+    </div>
+    <!-- Seller login -->
+    <div *ngIf="showLogin" class="sign-up">
+        <h2>Seller login Form</h2>
+        <form class="form-common" #sellerLogin="ngForm" (ngSubmit)="signIn(sellerLogin.value)">
+            <input type="email" class="form-inputs" placeholder="Enter email" name="email" ngModel #email="ngModel" required>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please input valid Email</span></p>
+            <input type="password" class="form-inputs" name="password" placeholder="Enter password" ngModel #password="ngModel" required>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please input valid Password</span></p>
+            <button class="btn btn-primary" [disabled]="sellerLogin.invalid">Login</button>
+            <a class="toggle-link" (click)="openSignup()">Not a Account? Click to sign-up</a>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+h2{
+    color:blue;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.toggle-link{
+    margin: auto;
+    text-decoration: none;
+    margin-top: 3px;
+    color: blue;
+    cursor: pointer;
+}

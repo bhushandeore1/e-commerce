@@ -1,0 +1,20 @@
+.search-item{
+    margin-left: 200px;
+}
+
+.col-sm-3 img{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.col-sm-8{
+    left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h6{
+    color: violet !important; 
+    text-decoration: none !important;
+}

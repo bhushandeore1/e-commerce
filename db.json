@@ -1,0 +1,218 @@
+{
+  "seller": [
+    {
+      "name": "Bhushan",
+      "email": "bhushan@test.com",
+      "password": "b123",
+      "id": 1
+    },
+    {
+      "name": "Roshan",
+      "email": "roshan@test.com",
+      "password": "r123",
+      "id": 2
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "dsd",
+      "email": "sd",
+      "id": 3
+    },
+    {
+      "name": "Rahul",
+      "password": "Rahul@321",
+      "email": "rahul@test.com",
+      "id": 4
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "",
+      "email": "",
+      "id": 5
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "",
+      "email": "",
+      "id": 6
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "dsdsd",
+      "email": "sdsd",
+      "id": 7
+    },
+    {
+      "name": "Yummy pizza store",
+      "password": "123",
+      "email": "bhushan.deore18@vit.edu",
+      "id": 8
+    },
+    {
+      "name": "dsd",
+      "password": "12345",
+      "email": "bhushan.deore18@vit.edu",
+      "id": 9
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "12345",
+      "email": "pbhushandeore@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Bhushan ",
+      "password": "123",
+      "email": "asd",
+      "id": 11
+    },
+    {
+      "name": "Bhushan",
+      "password": "123",
+      "email": "pbhushandeore@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "9098",
+      "email": "pbhushandeore@gmail.com",
+      "id": 13
+    }
+  ],
+  "products": [
+    {
+      "name": "OnePlus 11 Pro 5G",
+      "Price": "70000",
+      "Category": "Mobile",
+      "image": "https://m.media-amazon.com/images/I/618hqM-yxtL._SL1500_.jpg",
+      "Description": "OnePlus flagship phone\n",
+      "id": 3
+    },
+    {
+      "name": "Apple M2",
+      "Price": "120000",
+      "Category": "Laptop",
+      "image": "https://m.media-amazon.com/images/I/61aUBxqc5PL._SL1500_.jpg",
+      "Description": "Best Laptop",
+      "id": 4
+    },
+    {
+      "name": "Google Pixel 6A",
+      "Price": "30000",
+      "Category": "Mobile",
+      "image": "https://m.media-amazon.com/images/I/61dNAU6PgxL._SL1500_.jpg",
+      "Description": "Google android mobile",
+      "id": 5
+    },
+    {
+      "name": "HP Pavilion 14",
+      "Price": "60000",
+      "Category": "Laptop",
+      "image": "https://m.media-amazon.com/images/I/81VgRFq4R-L._SL1500_.jpg",
+      "Description": " AMD Ryzen8GB RAM/512GB SSD ",
+      "id": 6
+    },
+    {
+      "name": "Apple Iphone 14 pro",
+      "Price": "150000",
+      "Category": "Mobile",
+      "image": "data:image/webp;base64,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",
+      "Description": "Best In the Business",
+      "id": 7
+    },
+    {
+      "name": "Apple Iphone 14",
+      "Price": "70000",
+      "Category": "Mobile",
+      "image": "data:image/jpeg;base64,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",
+      "Description": "Best Under 1 Lakh",
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "name": "Bhushan Deore",
+      "password": "112345",
+      "email": "asdd@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "321",
+      "email": "asdd@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "3456",
+      "email": "asdd@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "2344",
+      "email": "asdd@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 6
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "1233",
+      "email": "asdd@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "23232",
+      "email": "asdd@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "12345",
+      "email": "asdd@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 11
+    },
+    {
+      "name": "Bhushan Deore",
+      "password": "12345",
+      "email": "bhushan.deore18@vit.edu",
+      "id": 12
+    },
+    {
+      "name": "Yummy pizza store",
+      "password": "12345",
+      "email": "asdd@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 14
+    }
+  ]
+}

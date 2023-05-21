@@ -1,0 +1,41 @@
+<h2> Our Products</h2>
+
+<ngb-carousel *ngIf="populateProduct">
+	<ng-template *ngFor="let item of populateProduct" ngbSlide>
+		<div class="picsum-img-wrapper">
+			<a routerLink="/product-detail/{{item.id}}"><img src="{{item.image}}" class="home-img"
+					alt="Random first slide" />
+			</a>
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>Price: ${{item.Price}}</p>
+			<p>{{item.Description}}</p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<div>
+	<h3 class="popular-product-header">Popular Products</h3>
+
+	<div class="row">
+		<div class="col-sm-3" *ngFor="let item of popularProduct">
+			<div class="product-img">
+				<a routerLink="/product-detail/{{item.id}}"><img src="{{item.image}}" alt="" srcset=""></a>
+				<h5>{{item.name}}</h5>
+				<div class="product-price">
+					<h5>price:₹{{item.Price}}</h5>
+				</div>
+				<div class="product-property">
+					<div class="product-add-to-cart">
+						<a href="">add to cart</a>
+					</div>
+					<div class="product-details">
+						<a routerLink="/product-detail/{{item.id}}"> view details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

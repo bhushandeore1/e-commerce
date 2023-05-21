@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    background-color: lightblue;
+}
+
+h1{
+    color: violet;
+    font-size: 40px;
+}
+.nav-search{
+    display: flex;
+    flex: 1;
+    margin-left: 30px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.header input{
+    display: flex;
+    flex: 1;
+    border: 2px solid violet
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.header ul li{
+    padding: 10px;
+    color: violet;
+
+}
+header ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+
+h1 a{
+    text-decoration: none;
+    color: violet;
+}
+
+.search-result{
+    position: absolute;
+    display: list-item !important;
+    top: 44px;
+    margin-left: 258px;
+    z-index: 10;
+    background-color: white;
+    border: 2px solid violet;
+    width: 296px;
+}

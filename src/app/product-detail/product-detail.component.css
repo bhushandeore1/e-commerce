@@ -1,0 +1,35 @@
+.col-sm-6 img{
+    width: 300px;
+
+    margin-left: 250px;
+    object-fit: contain;
+}
+
+.col-sm-6{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.button-section{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.quantity-group{
+    /* width: auto; */
+    margin-top: 15px;
+}
+
+.quantity-group button{
+    padding-right: 10px;
+}
+.quantity-group input{
+    width: 40px;
+    padding-left: 10px;
+}
+
+
